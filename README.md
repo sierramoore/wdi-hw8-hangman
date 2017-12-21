@@ -23,7 +23,7 @@ You've done a **lot** of jQuery for a couple of days, so tonight take a little b
 
 **Make sure you break the problem down before you start.**
 
-**Note:** You're welcome to follow the basic structure/recommended functions below, but if you work out a different solution to accomplish game play that's ok (as long as game play works like it's supposed to)! Roll with it!
+**Note:** You're welcome to follow the basic structure/recommended functions below, but if you work out a different solution (that uses classes) to accomplish game play that's ok! Roll with it! 
 
 ## Commits :octocat:
 
