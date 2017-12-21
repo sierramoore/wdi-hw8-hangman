@@ -16,7 +16,10 @@ Competencies: OOP (Object-oriented programming) in JavaScript, thinking through 
 
 # Hangman
 
-You've done a **lot** of jQuery for a couple of days, so tonight take a little break from it.  You will be creating the popular game of Hangman as a JavaScript console game.  Project 1 is almost here and this assignment will walk you through how to think through, plan, and build such a project.
+You've done a **lot** of jQuery for a couple of days, so tonight take a little break from it.  You will be creating the popular game of Hangman as a JavaScript console game.  Project 1 is almost here and this assignment will walk you through how to think through, plan, and build such a project.  
+
+## Fork this repo. Clone it. Do the stuff.
+
 
 **Make sure you break the problem down before you start.**
 
@@ -25,6 +28,8 @@ You've done a **lot** of jQuery for a couple of days, so tonight take a little b
 ## Commits :octocat:
 
 Make a commit after you create each function / object / class / or more often if you feel so inclined! This will factor into your score on the assignment.
+
+## Submits: Make a PR (pull request)
 
 <hr>
 
