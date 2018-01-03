@@ -7,15 +7,23 @@
 
 
 class Letter {
-    constructor(value){
-        this.value = value;
+    constructor(char){
+        this.value = char;
         this.hidden = true;
     }
     show(){
         this.hidden = false;
     }
-    display(){
-        if(!this.hidden){
+    test(char){
+        if (char === this.value) {
+            this.show();
+            return true;
+        }
+
+        return false;
+    }
+    displayValue(){
+        if(this.hidden){
             return "_";
         }
 
@@ -50,21 +58,30 @@ class Word {
         }
     }
     test(letter){
+        //when u store obj of a class with methods in an arr you can ac
         //accept input as arg for letters
         //loop thru letters
         for(let i=0; i < this.letters.length; i++) {
-            if (letter === this.letters[i].value) {//letter user entered matches charater in letters arr
-                this.letters[i].show();
+            if (this.letters[i].test(letter)) {//letter user entered matches charater in letters arr
             }
         }
     }
     render(){
-        //return word in guessed state like c_t
+        //create str obj
+        let checkedWord = "";
+        for(let i=0; i < this.letters.length; i++) {
+            //take all values to conbine and retrun value
+            checkedWord = checkedWord + this.letters[i].displayValue()
+        }
+        return checkedWord;
     }
 }
 
-new Word("cat");
- let obj ={};
+let roma = new Word("cat");
+console.log(roma.render());
+//needs "" to expect str data type as arg
+roma.test("t");
+console.log(roma.render())
 
 let words = ["blue", "cat", "alien"];
 
