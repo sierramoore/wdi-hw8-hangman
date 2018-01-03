@@ -80,6 +80,7 @@ class Word {
 let roma = new Word("cat");
 console.log(roma.render());
 //needs "" to expect str data type as arg
+roma.test("a");
 roma.test("t");
 console.log(roma.render())
 
